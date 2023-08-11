@@ -1,5 +1,12 @@
-#ask for username
-question = input("Who are you? ").strip().title()
+def main():
+    question = input("Who are you? ").strip().title()
+    hi(question)
 
-#show the input of the user
-print(f"Hi, {question}")
+
+def hi(to="Student"):
+    print("hi,", to)
+
+main()
+
+
+
