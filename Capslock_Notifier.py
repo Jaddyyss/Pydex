@@ -17,9 +17,9 @@ def main():
         # Check if the state has changed
         if current_state != last_state:
             if current_state:  # Caps Lock is ON
-                toaster.show_toast("Caps Lock", "Caps Lock is ON", duration=1)
+                toaster.show_toast("Caps Lock", "Caps Lock is ON", duration=2)
             else:  # Caps Lock is OFF
-                toaster.show_toast("Caps Lock", "Caps Lock is OFF", duration=1)
+                toaster.show_toast("Caps Lock", "Caps Lock is OFF", duration=2)
             
             # Update the last state
             last_state = current_state
